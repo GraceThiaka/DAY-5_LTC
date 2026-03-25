@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: black;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.square{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    color: #000000;
+    padding: 5px;
+}
