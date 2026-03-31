@@ -1,0 +1,23 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 10px;
+   
+}
+main section{
+    background-color: goldenrod;
+    padding: 10px;
+   
+}
+#p1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
