@@ -34,13 +34,13 @@
     
 // }
 
-let num1 = document.getElementById("num1").value
-let num2 = document.getElementById("num2").value
+// let num1 = document.getElementById("num1").value
+// let num2 = document.getElementById("num2").value
 
-let result = Number(num1)+Number(num2);
-console.log("Your result is;",result);
-let output =document.getElementById("results");
-output.innerText ="your result is:"+result;
+// let result = Number(num1)+Number(num2);
+// console.log("Your result is;",result);
+// let output =document.getElementById("results");
+// output.innerText ="your result is:"+result;
 
 // })
 // let a =20
@@ -51,7 +51,7 @@ output.innerText ="your result is:"+result;
 // else if(false){
 //     console.log("a is less than b")
 // }
-for(let i=0;i<11;i++){
+// for(let i=0;i<11;i++){
 //     console.log(i)
 // }
 // let counter=20
@@ -69,13 +69,10 @@ for(let i=0;i<11;i++){
 //     fruits=["apple", "banana", "orange"]
 //     for (let fruit of fruits){
 //         console.log|(fruit)
-function addNumbers(a,b){
-    let sum =a+b;
-    console.log(sum)
-}
-add
-        
-    }
+// function addNumbers(a,b){
+//     let sum =a+b;
+//     console.log(sum)
+// }
 
 // console.log(typeof(secondName));
 // console.log(typeof(pie));
@@ -84,3 +81,32 @@ add
 // console.log(typeof(thirdName));
 // console.log(typeof(fruits));
 // console.log(typeof(phones));
+
+//arrow functions
+// const divNumbers =(a,b)=>{return a/b}
+// console.log(divNumbers(40,10))
+// let counter=0;
+// if(counter<10)
+// {
+//     let age =30;
+//     console.log(`My age is ${age}`)
+// }
+// console.log(`my age is ${age}`)
+
+let el =document.querySelector("#heading-1")
+console.log(el)
+el.textContent="good morning"
+el.classList.add("enlarge","italics");
+
+let el2 = document.querySelector("div");
+const p =document.createElement("p")
+let paragraph= `Hello this is a paragrapgh from js`;
+p.innerText=paragraph;
+document.appendChild(p)
+let el3 =document.querySelector(".p3")
+el3.style.color ="#13a57f"
+let el4 =document.querySelector("button")
+// el4.addEventlistener "click","function"()
+el3.classList.toggle("darkmode")
+
+
