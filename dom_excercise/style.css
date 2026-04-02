@@ -1,0 +1,11 @@
+.container{
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: brown;
+    border: none;
+}
