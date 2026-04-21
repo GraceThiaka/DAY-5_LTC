@@ -17,16 +17,23 @@
 // let evennembers = numbers.filter((number)=>{
 //     return number% 2===0;
 
-let artists = {
-    artistsName: "james",
-    age :30,
-    song: "the night is still young"}
+// let artists = {
+//     artistsName: "james",
+//     age :30,
+//     song: "the night is still young"}
    
-console.log(artists.artistsName)
-Object.values(artists).forEach(value => console.log(value))
-console.log(Object.entries(artists))
-for (const [key,value] of Object.entries(artists))
+// console.log(artists.artistsName)
+// Object.values(artists).forEach(value => console.log(value))
+// console.log(Object.entries(artists))
+// for (const [key,value] of Object.entries(artists))
 
-{
-    console.log(`key : ${key} value : ${value}`)
-}
+// {
+//     console.log(`key : ${key} value : ${value}`)
+// }
+// const {artistName, age, song} = artists;
+// console.log(artistName)
+
+console.log("task 1 completed")
+console.log("task 2 completed")
+console.log("task 3 completed")
+console.log("task 4 completed")
