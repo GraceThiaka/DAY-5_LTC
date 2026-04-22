@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABARAK CHILDREN'S HOME</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>TABARAK CHILDREN'S HOME</h1>
+    <section class="hero">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a>
+                <li><a href="#">About Us</a>
+                <li><a href="#">Contact</a>
+                <li><a href="#">Donate</a>
+                <li><a href="#">Gallery</a>
+                <li><a href="#">News and Blogs</a>
+                <li><a href="#">Get involved</a>
+                <li><a href="#">Our Children / success stories</a>
+                <li><a href="#">Programs / Our Work</a>
+            </ul>
+        </nav>
+        <div class="container"></div>
+        <h1>About Us</h1>
+        <div class="box"></div>
+        <h1>Welcome to Tabarak Children's Home</h1>
+        <p>Providing a Loving Home Since 1990</p>
+        <button>About Us</button>
+    </section>
+   
+</body>
+
+</html>
